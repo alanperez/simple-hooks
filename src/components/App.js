@@ -6,6 +6,7 @@ import ResourceList from './ResourceList'
     return (
     <div>
       <div>
+        {/* on click  run a function that will call setResource and updates it to posts or todos */}
         <button onClick={() => setResource('posts')}>Posts</button>
         <button onClick={() => setResource('todos')}>Todos</button>  
       </div>      
